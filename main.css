@@ -1,0 +1,50 @@
+#tweet-display {
+  background-color: aqua;
+}
+
+#hashtag-display {
+  background-color: red;
+}
+
+#new-tweet input[type=submit] {
+  background-color: #75C2E0;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px orange;
+  text-shadow: 1px 1px 1px white;
+}
+
+#new-tweet input[type=submit]:hover {
+  -webkit-animation: buttonclick 0.5s infinite;
+  animation: buttonclick 0.5s infinite;
+}
+
+@keyframes buttonclick {
+  0% { background-color: red; }
+  50% { background-color: green; }
+  100% { background-color: blue; }
+}
+
+@-webkit-keyframes buttonclick {
+  0% { background-color: red; }
+  50% { background-color: green; }
+  100% { background-color: blue; }
+}
+
+#hashtag-box {
+  float: right;
+}
+
+#tweet-box {
+  float: left;
+}
+
+.content-display ol {
+  margin: 30px;
+  /*padding: 20px 50px;*/
+}
+
+.content-display div {
+  width: 46%;
+  padding: 2%;
+}
